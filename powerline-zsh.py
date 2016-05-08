@@ -284,7 +284,7 @@ def add_root_indicator(powerline, error):
     if int(error) != 0:
         fg = Color.CMD_FAILED_FG
         bg = Color.CMD_FAILED_BG
-    #powerline.append(Segment(powerline, ' ❄', fg, bg))
+    powerline.append(Segment(powerline, ' $', fg, bg))  #change this
 
 
 def get_valid_cwd():

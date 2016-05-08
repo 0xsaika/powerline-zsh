@@ -18,6 +18,11 @@ Setup
 
 	 * https://github.com/powerline/fonts
 
+	 * test
+	 '''shell
+	 echo -e "\ue0a0\ue0a1\ue0a2\ue0b0\ue0b1\ue0b2\ue0b3"
+	 '''
+
  * Clone this repository somewhere
     ```shell
     git clone https://github.com/0xsaika/powerline-zsh

@@ -12,7 +12,12 @@ fix charset of status bar
 
 Setup
 ===============================
-	
+ * Install Powerline symbol otf in font folder
+
+ * Install Powerline Font from here
+
+	 * https://github.com/powerline/fonts
+
  * Clone this repository somewhere
     ```shell
     git clone https://github.com/0xsaika/powerline-zsh
@@ -60,8 +65,9 @@ Usage
 Tips
 ===============================
 
-	 * If you want change root indicator, chk line 287
+ * If you want delete root indicator, chk line 287 and comment out that line
 
 	'''python
+	#this line
 	powerline.append(Segment(powerline, ' $', fg, bg))
 	'''

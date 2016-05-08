@@ -58,8 +58,8 @@ class Powerline:
             'separator_thin': '\ue0b1'
         },
         'default': {
-            'separator': '⮀',
-            'separator_thin': '⮁'
+            'separator': '\ue0b0',
+            'separator_thin': '\ue0b1'
         }
     }
     LSQESCRSQ = '\\[\\e%s\\]'
@@ -284,7 +284,7 @@ def add_root_indicator(powerline, error):
     if int(error) != 0:
         fg = Color.CMD_FAILED_FG
         bg = Color.CMD_FAILED_BG
-    powerline.append(Segment(powerline, ' ❄', fg, bg))
+    #powerline.append(Segment(powerline, ' ❄', fg, bg))
 
 
 def get_valid_cwd():

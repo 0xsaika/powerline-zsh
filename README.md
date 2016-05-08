@@ -3,6 +3,7 @@ Powerline style prompt for Zsh :: Customize & Fix
 This is fork from https://github.com/carlcarl/powerline-zsh
 
 Custom&fix by saika
+
 fix charset of status bar
 
 ![Powerline-Zsh Screenshot](http://i.imgur.com/QfDe3yP.png)
@@ -12,19 +13,19 @@ fix charset of status bar
 Setup
 ===============================
 	
-    * Clone this repository somewhere
+ * Clone this repository somewhere
     ```shell
     git clone https://github.com/0xsaika/powerline-zsh
     ```	
 
-	* Create a symlink to the python script in your home:
+ * Create a symlink to the python script in your home:
    
     ```shell
     ln -s <path/to/powerline-zsh.py> ~/powerline-zsh.py
     ```
 
 
-	* Now add the following to your `.zshrc`:
+ * Now add the following to your `.zshrc`:
 
     ```shell
     export TERM='xterm-256color'
@@ -41,9 +42,11 @@ Setup
 	}
 	```
 
+
 Usage
 ===============================
-	* powerline-zsh.py usage:
+
+ * powerline-zsh.py usage:
 
 	```shell
 	-h, --help  show this help message and exit
@@ -53,10 +56,11 @@ Usage
 	            Default is "default"
 	```
 
+
 Tips
 ===============================
 
-	 * If you want change root indicator chk line 287
+	 * If you want change root indicator, chk line 287
 
 	'''python
 	powerline.append(Segment(powerline, ' $', fg, bg))

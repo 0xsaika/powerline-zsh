@@ -20,9 +20,9 @@ Setup
 
 	 * test
 	 
-	 '''shell
+	```shell
 	 echo -e "\ue0a0\ue0a1\ue0a2\ue0b0\ue0b1\ue0b2\ue0b3"
-	 '''
+	```
 
  * Clone this repository somewhere
     ```shell
@@ -73,7 +73,6 @@ Tips
 
  * If you want delete root indicator, chk line 287 and comment out that line
 
-	'''python
-	#this line
+	```python
 	powerline.append(Segment(powerline, ' $', fg, bg))
-	'''
+	```
